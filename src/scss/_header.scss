@@ -1,5 +1,5 @@
 header {
-   border-bottom: solid 1px var(--border-color);
+  border-bottom: solid 1px var(--border-color);
 
   .container {
     width: 100%;
@@ -23,8 +23,8 @@ header {
         font-size: 1.25rem;
         font-weight: 700;
         line-height: 1.75rem;
-       color: var(--primary-color);
-
+        color: var(--primary-color);
+      }
       .header-brand,
       .header-actions {
         display: flex;
@@ -70,15 +70,22 @@ header {
           border: none;
           background-color: var(--gray-color-100);
         }
-        button {
-          border-top-right-radius: 1rem;
-          border-bottom-right-radius: 1rem;
-          padding: 0.5rem;
-          border: none;
-          background-color: var(--gray-color-100);
-          cursor: pointer;
-        }
+      }
+      button {
+        background-color: transparent;
+        padding: 0.5rem;
+        border: none;
+        cursor: pointer;
+        color: var(--text-color);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
       }
     }
+  }
+
+  .material-symbols-outlined {
+    font-size: 1.5rem;
+    line-height: 1;
   }
 }
